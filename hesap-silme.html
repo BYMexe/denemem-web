@@ -8,7 +8,7 @@
 
   <meta
     name="description"
-    content="Denemem hesabınızı ve hesabınızla ilişkili verileri nasıl silebileceğinizi öğrenin."
+    content="Denemem hesabınızı ve hesabınızla ilişkili bulut verilerini nasıl silebileceğinizi öğrenin."
   >
 
   <link rel="stylesheet" href="styles.css">
@@ -50,24 +50,31 @@
 
 
     <div class="notice">
-      Denemem hesabınızı ve hesabınızla ilişkili verileri silme
-      seçenekleri hakkında bilgiye bu sayfadan ulaşabilirsiniz.
+      Denemem hesabınızı ve hesabınızla ilişkili bulut verilerini
+      silmek için uygulama içindeki hesap silme özelliğini kullanabilir
+      veya uygulamaya erişemiyorsanız bu sayfadaki destek kanalından
+      silme talebi oluşturabilirsiniz.
     </div>
 
 
     <section>
 
-      <h2>Hesabımı nasıl silebilirim?</h2>
+      <h2>1. Denemem hesabımı nasıl silebilirim?</h2>
 
       <p>
-        Denemem hesabınızı uygulama içerisindeki hesap silme
-        özelliğini kullanarak silebilirsiniz.
+        Denemem hesabınıza erişebiliyorsanız hesabınızı uygulama
+        içerisindeki hesap silme seçeneğini kullanarak silebilirsiniz.
       </p>
 
       <p>
-        Hesap silme özelliği yayınlanan sürümde aktif olduğunda
-        uygulama içerisindeki ilgili hesap veya ayarlar bölümünden
-        erişilebilir olacaktır.
+        Silme işlemi başlatıldığında hesabın gerçekten size ait olduğunu
+        doğrulayan mevcut oturum bilgisi kullanılır.
+      </p>
+
+      <p>
+        İşlem başarıyla tamamlandığında doğrulanmış Denemem hesabının
+        ve hesapla ilişkili desteklenen Denemem bulut yedeğinin
+        silinmesi amaçlanır.
       </p>
 
     </section>
@@ -75,33 +82,44 @@
 
     <section>
 
-      <h2>Uygulamaya erişemiyorsam ne yapabilirim?</h2>
+      <h2>2. Uygulamaya erişemiyorsam ne yapabilirim?</h2>
 
       <p>
-        Uygulamaya erişemiyorsanız veya hesap silme işlemiyle ilgili
-        sorun yaşıyorsanız aşağıdaki destek adresinden bizimle
-        iletişime geçebilirsiniz:
+        Uygulamaya erişemiyorsanız, giriş yapamıyorsanız veya uygulama
+        içindeki silme işlemini tamamlayamıyorsanız aşağıdaki e-posta
+        adresi üzerinden hesap silme talebi oluşturabilirsiniz.
       </p>
 
       <div class="contact-box">
 
-        <strong>Destek e-postası</strong>
+        <strong>Hesap silme ve destek e-postası</strong>
 
         <br>
 
-        <a href="mailto:denemem.destek@gmail.com">
+        <a href="mailto:denemem.destek@gmail.com?subject=Denemem%20Hesap%20Silme%20Talebi">
           denemem.destek@gmail.com
         </a>
 
       </div>
 
       <p>
-        Hesabın doğru kişiye ait olduğunu doğrulamak için güvenlik
-        amacıyla ek doğrulama talep edilebilir.
+        <a
+          class="button secondary"
+          href="mailto:denemem.destek@gmail.com?subject=Denemem%20Hesap%20Silme%20Talebi"
+        >
+          Hesap Silme Talebi Gönder
+        </a>
       </p>
 
       <p>
-        E-posta üzerinden hiçbir zaman şifrenizi göndermeyin.
+        Güvenlik amacıyla hesabın size ait olduğunu doğrulamak için
+        ek doğrulama bilgileri talep edilebilir.
+      </p>
+
+      <p>
+        E-posta üzerinden hiçbir zaman parolanızı, erişim tokenınızı,
+        doğrulama kodunuzu veya başka bir gizli hesap bilgisini
+        göndermeyin.
       </p>
 
     </section>
@@ -109,43 +127,81 @@
 
     <section>
 
-      <h2>Hangi veriler silinir?</h2>
+      <h2>3. Hesap silindiğinde hangi veriler silinir?</h2>
 
       <p>
-        Hesap silme işlemi tamamlandığında ve saklanmasını gerektiren
-        hukuki veya güvenlik kaynaklı bir zorunluluk bulunmadığında,
-        hesapla ilişkili aşağıdaki veriler silinebilir:
+        Hesap silme işlemi başarıyla tamamlandığında Denemem tarafından
+        yönetilen hesap ve hesapla ilişkili sunucu tarafındaki
+        desteklenen verilerin silinmesi amaçlanır.
+      </p>
+
+      <p>
+        Bunlar aşağıdakileri içerebilir:
       </p>
 
       <ul>
-        <li>Kullanıcı hesabı</li>
-        <li>Hesapla ilişkili e-posta ve kullanıcı kimliği</li>
-        <li>Bulutta saklanan deneme kayıtları</li>
-        <li>Görev ve çalışma kayıtları</li>
-        <li>Hedef ve ilerleme bilgileri</li>
-        <li>Hesapla ilişkili diğer uygulama verileri</li>
+        <li>Denemem kullanıcı hesabı</li>
+        <li>Hesapla ilişkili doğrulanmış kullanıcı kimliği</li>
+        <li>Hesap doğrulamasında kullanılan e-posta adresi</li>
+        <li>Denemem'in Supabase üzerinde tuttuğu ilişkili bulut yedeği</li>
+        <li>Bulut yedeğine dahil edilmiş desteklenen uygulama kayıtları</li>
       </ul>
+
+      <p>
+        Hesabın yalnızca devre dışı bırakılması veya dondurulması,
+        hesap silme işlemi olarak değerlendirilmez.
+      </p>
 
     </section>
 
 
     <section>
 
-      <h2>Hesabı silmek ile uygulamayı kaldırmak aynı şey midir?</h2>
+      <h2>4. Hangi veriler otomatik olarak silinmez?</h2>
+
+      <p>
+        Hesap silme işlemi, cihazınızdaki bütün yerel uygulama
+        verilerinin otomatik olarak silindiği anlamına gelmez.
+      </p>
+
+      <p>
+        Aşağıdaki veriler hesap silme işleminden ayrı olabilir:
+      </p>
+
+      <ul>
+        <li>Cihaz üzerinde yerel olarak saklanan Denemem kayıtları</li>
+        <li>Cihazda saklanan yanlış soru fotoğrafları</li>
+        <li>Daha önce dışa aktardığınız manuel JSON yedek dosyaları</li>
+        <li>Başka uygulama veya bulut hizmetleriyle paylaştığınız yedek dosyaları</li>
+      </ul>
+
+      <p>
+        Bu verileri de kaldırmak istiyorsanız cihazdaki ilgili kayıtları
+        ayrıca silebilir, dışa aktardığınız dosyaları kaldırabilir veya
+        uygulama verilerini cihazınızdan temizleyebilirsiniz.
+      </p>
+
+    </section>
+
+
+    <section>
+
+      <h2>5. Uygulamayı kaldırmak hesabımı siler mi?</h2>
 
       <p>
         Hayır.
       </p>
 
       <p>
-        Denemem uygulamasını telefonunuzdan kaldırmak, kullanıcı
-        hesabınızın veya bulutta saklanan hesap verilerinizin
-        otomatik olarak silindiği anlamına gelmez.
+        Denemem uygulamasını telefonunuzdan kaldırmak, Denemem kullanıcı
+        hesabınızın veya sunucuda bulunan bulut yedeğinizin otomatik
+        olarak silindiği anlamına gelmez.
       </p>
 
       <p>
-        Hesabınızı ve ilişkili verilerinizi silmek istiyorsanız
-        hesap silme işlemini ayrıca gerçekleştirmeniz gerekir.
+        Hesabınızı silmek istiyorsanız uygulama içindeki hesap silme
+        özelliğini kullanmanız veya bu sayfadaki destek kanalından
+        hesap silme talebi oluşturmanız gerekir.
       </p>
 
     </section>
@@ -153,36 +209,23 @@
 
     <section>
 
-      <h2>Silme işlemi geri alınabilir mi?</h2>
+      <h2>6. Yerel veriler neden cihazda kalabilir?</h2>
 
       <p>
-        Hesap silme işlemi tamamlandıktan ve ilgili veriler kalıcı
-        olarak silindikten sonra bu verilerin geri getirilmesi
-        mümkün olmayabilir.
+        Denemem'in temel özelliklerinin önemli bir bölümü hesap
+        oluşturmadan ve cihaz üzerinde yerel olarak kullanılabilir.
       </p>
 
       <p>
-        Bu nedenle silme işlemini onaylamadan önce gerekli
-        verilerinizi kontrol etmeniz önerilir.
-      </p>
-
-    </section>
-
-
-    <section>
-
-      <h2>Verilerin saklanması</h2>
-
-      <p>
-        Hesap silme talebi sonrasında saklanması için hukuki,
-        güvenlik veya uyuşmazlık çözümü kaynaklı zorunluluk
-        bulunmayan hesap verilerinin silinmesi amaçlanır.
+        Bu nedenle sunucudaki kullanıcı hesabının silinmesi ile cihazda
+        saklanan yerel uygulama verilerinin silinmesi birbirinden ayrı
+        işlemler olabilir.
       </p>
 
       <p>
-        Yasal olarak belirli bir süre saklanması gereken bilgiler
-        bulunması halinde yalnızca gerekli bilgiler ilgili süre
-        boyunca saklanabilir.
+        Yerel veriler yalnızca kullanıcının cihazında bulunabilir ve
+        mevcut bulut hesabının silinmesi bu cihaz içi kayıtları otomatik
+        olarak kaldırmayabilir.
       </p>
 
     </section>
@@ -190,13 +233,155 @@
 
     <section>
 
-      <h2>Destek</h2>
+      <h2>7. Yanlış soru fotoğraflarına ne olur?</h2>
+
+      <p>
+        Yanlış soru arşivine eklenen fotoğraflar mevcut Denemem bulut
+        yedeğine gönderilmez.
+      </p>
+
+      <p>
+        Bu fotoğraflar cihazın uygulamaya özel dosya alanında yerel
+        olarak saklanır. Bu nedenle Denemem hesabının sunucudan
+        silinmesi cihazdaki bu fotoğrafları otomatik olarak silmeyebilir.
+      </p>
+
+      <p>
+        Fotoğrafları kaldırmak için ilgili yanlış soru arşivi kayıtlarını
+        uygulama içerisinden silebilir veya cihazdaki uygulama verilerini
+        temizleyebilirsiniz.
+      </p>
+
+    </section>
+
+
+    <section>
+
+      <h2>8. Manuel yedek dosyalarına ne olur?</h2>
+
+      <p>
+        Daha önce oluşturduğunuz veya başka bir uygulamaya aktardığınız
+        manuel yedek dosyaları Denemem hesabının silinmesiyle otomatik
+        olarak silinmez.
+      </p>
+
+      <p>
+        Paylaşılmış veya dışa aktarılmış dosyaların saklanması ve
+        silinmesi, dosyanın bulunduğu cihazın veya paylaşım yapılan
+        hizmet sağlayıcının kontrolünde olabilir.
+      </p>
+
+    </section>
+
+
+    <section>
+
+      <h2>9. Silme işlemi tamamlanamazsa ne olur?</h2>
+
+      <p>
+        Güvenlik veya veri bütünlüğü nedeniyle otomatik hesap silme
+        işleminin güvenli biçimde tamamlanamadığı durumlarda işlem
+        durdurulabilir.
+      </p>
+
+      <p>
+        Böyle bir durumda hesabınızın veya ilişkili verilerinizin
+        yanlışlıkla silinmesi yerine destek kanalına yönlendirme
+        yapılabilir.
+      </p>
+
+      <p>
+        Uygulama içindeki silme işlemi hata verirse:
+      </p>
+
+      <p>
+        <a
+          class="button secondary"
+          href="mailto:denemem.destek@gmail.com?subject=Denemem%20Hesap%20Silme%20Sorunu"
+        >
+          Destek ile İletişime Geç
+        </a>
+      </p>
+
+    </section>
+
+
+    <section>
+
+      <h2>10. Silme işlemi geri alınabilir mi?</h2>
+
+      <p>
+        Hesap ve sunucu tarafındaki ilişkili veriler kalıcı olarak
+        silindikten sonra bu verilerin Denemem tarafından geri
+        getirilmesi mümkün olmayabilir.
+      </p>
+
+      <p>
+        Bu nedenle hesabınızı silmeden önce ihtiyaç duyduğunuz verileri
+        kontrol etmeniz ve gerekli görüyorsanız desteklenen manuel yedek
+        özelliğini kullanmanız önerilir.
+      </p>
+
+    </section>
+
+
+    <section>
+
+      <h2>11. Veri saklama ve hizmet sağlayıcıları</h2>
+
+      <p>
+        Denemem hesabı silindiğinde uygulamanın kendi aktif hesabı ve
+        ilişkili desteklenen bulut verileri silinmek üzere işlenir.
+      </p>
+
+      <p>
+        Bununla birlikte kullanılan altyapı sağlayıcılarının güvenlik,
+        kötüye kullanım önleme, sistem logları veya teknik yedekler için
+        uyguladığı saklama politikaları ilgili hizmet sağlayıcının kendi
+        şartlarına ve uygulanabilir yasal yükümlülüklere tabi olabilir.
+      </p>
+
+      <p>
+        Denemem, hukuki veya güvenlik nedeniyle saklanması zorunlu
+        olmayan kullanıcı verilerini gereksiz yere saklamayı amaçlamaz.
+      </p>
+
+    </section>
+
+
+    <section>
+
+      <h2>12. Gizlilik Politikası</h2>
+
+      <p>
+        Denemem'in veri işleme, bulut yedekleme, yerel veri saklama,
+        fotoğraf, bildirim ve üçüncü taraf hizmetleri hakkında daha
+        ayrıntılı bilgi için Gizlilik Politikamızı inceleyebilirsiniz.
+      </p>
+
+      <p>
+        <a class="button secondary" href="gizlilik.html">
+          Gizlilik Politikasını Görüntüle
+        </a>
+      </p>
+
+    </section>
+
+
+    <section>
+
+      <h2>13. İletişim</h2>
 
       <div class="contact-box">
 
         <p>
           <strong>Uygulama:</strong>
           Denemem
+        </p>
+
+        <p>
+          <strong>Geliştiriciler:</strong>
+          Batur Yiğit Mıh ve Batuhan Mıh
         </p>
 
         <p>
